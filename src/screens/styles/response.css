@@ -1,0 +1,36 @@
+#response-container header {
+  height: fit-content; width: fit-content;
+
+  display: flex;
+  align-items: center;
+
+  padding: 0 3vw;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+#response-container header span {
+  margin-left: 5px;
+}
+
+#response-field {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+#response-text-area {
+  width: 40vw;
+}
+
+#response-field video {
+  max-width: 55vw;
+}
+
+.submit-response {
+  font-size: 1.2rem;
+  padding: 5px 15px;
+  background-color: #9f3333;
+  color: #212121;
+  border-radius: 5px;
+}

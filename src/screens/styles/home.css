@@ -1,0 +1,30 @@
+.homescreen {
+    height: 100vh;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.homescreen__container {
+  height: 93.4%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: #dcdcdc;
+  padding: 30px;
+  background-image: linear-gradient(to bottom, #fff, #71D7D7);
+}
+.homescreen__btn {
+  padding: 10px;
+  font-size: 18px;
+  margin-top: 10px;
+  border: none;
+  color: white;
+  background-color: black;
+}
+.homescreen div {
+  margin-top: 7px;
+}

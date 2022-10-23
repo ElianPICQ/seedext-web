@@ -1,0 +1,9 @@
+.videofeed-category {
+  display: flex;
+  justify-content: center;
+  flex-wrap:  wrap;
+}
+
+.category-card {
+  margin-top: 15px;
+}

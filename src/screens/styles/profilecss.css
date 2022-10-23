@@ -1,0 +1,298 @@
+.profile__container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile__info {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.profile__info h1 {
+    font-size: 40px;
+}
+
+.profile__info label {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.avatar {
+    width: 120px;
+    object-fit: cover;
+    border: 2px;
+    border-color: gray.100;
+    box-shadow: "lg";
+    margin-top: 10px; 
+}
+
+.profile__info_button {
+    margin-top: 15px;
+    border: 1px transparent;
+    background-color: green;
+    width: 250px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.profile__info_button:hover {
+    background-color: green.200;
+}
+
+.profile__change {
+    flex-direction: column;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    background-color: #7B7A7A;
+    margin-top: 10px;
+    border-radius: 16px;
+    padding: 15px 0;
+}
+
+#profile-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#profile-form h3 {
+    text-align: center;
+    margin: 15px 0 7px 0;
+}
+
+#profile-form button {
+    margin-top: 10px;
+    background-color: #0000008f;
+    border-radius: 3px;
+}
+
+.profile__headText {
+    font-size: 16px;
+    margin-right: 58%;
+}
+
+.profile__input {
+    flex-direction: row;
+    width: 400px;
+}
+
+.profile__text {
+    margin-right: -30px;
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+.profile__button {
+    padding: 10px;
+    margin-left: 172px;
+    margin-top: -10px;
+}
+
+.profile__inputMail {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+}
+
+.profile__headTextMail {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-right: 65%;
+}
+
+.profile__textMail {
+    margin-top: 5px;
+    font-size: 18px;
+    margin-left: 25px;
+}
+
+.profile__buttonMail {
+    padding: 10px;
+    margin-left: 25px;
+    margin-top: -10px;
+}
+
+.userChangeHeader {
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.userTypeHeader {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.userProfile__textBox {
+    width: 300px;
+    height: 40px;
+    margin-top: 5px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.Popup_button {
+    position: absolute;
+    bottom: 16px;
+    right: 5%;
+    width: 90px;
+    border: 1px solid #4752C4;
+    background-color: #4752C4;
+}
+
+{/*  ///////////////////////////
+     CSS FOR THE MOBILE VERSION
+     ////////////////////////// */}
+
+@media screen and (max-width: 600px) {
+    .profile__container {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .profile__info {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .profile__info h1 {
+        font-size: 40px;
+        margin-top: -20px;
+    }
+    
+    .profile__info label {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    
+    .avatar {
+        width: 80px;
+        object-fit: cover;
+        border: 2px;
+        border-color: gray.100;
+        box-shadow: "lg";
+        margin-top: 10px; 
+    }
+    
+    .profile__info input {
+        margin-top: 15px;
+    }
+    
+    .profile__info_button {
+        margin-top: 15px;
+        border: 1px transparent;
+        background-color: green;
+        width: 250px;
+        height: 40px;
+        border-radius: 50px;
+    }
+    
+    .profile__info_button:hover {
+        background-color: green.200;
+    }
+    
+    .profile__change {
+        flex-direction: column;
+        width: 375px;
+        align-items: center;
+        justify-content: center;
+        background-color: #7B7A7A;
+        margin-top: 20px;
+        border-radius: 16px;
+    }
+    
+    .profile__headText {
+        font-size: 16px;
+        margin-top: 10px;
+        margin-right: 62%;
+    }
+    
+    .profile__input {
+        
+    }
+    
+    .profile__text {
+        margin-top: 5px;
+        font-size: 20px;
+        margin-left: 22px;
+    }
+    
+    .profile__button {
+        padding: 20px;
+        display: flex;
+        margin-top: 2px;
+        margin-right: 50px;
+        
+    }
+    
+    .profile__inputMail {
+        
+    }
+    
+    .profile__headTextMail {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    
+    .profile__textMail {
+        margin-top: 5px;
+        font-size: 18px;
+        margin-left: 25px;
+    }
+    
+    .profile__buttonMail {
+        display: flex;
+        padding: 20px;
+        margin-right: 20px;
+    }
+    
+    .userChangeHeader {
+        font-weight: bold;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .userTypeHeader {
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    
+    .userProfile__textBox {
+        width: 300px;
+        height: 40px;
+        margin-top: 5px;
+        border: 1px solid black;
+        padding: 5px;
+    }
+    
+    .Popup_button {
+        position: absolute;
+        bottom: 16px;
+        right: 5%;
+        width: 90px;
+        border: 1px solid #4752C4;
+        background-color: #4752C4;
+    }
+  }

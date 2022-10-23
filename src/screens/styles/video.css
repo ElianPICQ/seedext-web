@@ -1,0 +1,124 @@
+#video-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  position: relative;
+}
+
+#video-screen header {
+  width: 100vw;
+  min-height: 50px;
+  padding: 0 10vw 0 10vw;
+
+  display: flex;
+  justify-content: space-around; align-items: center;
+  background-color: #000;
+}
+
+header p {
+  color: #fff;
+}
+
+.question-more-infos {
+  height: 120px; width: 75vw;
+  display: flex;
+  justify-content: space-between;
+
+  margin: 5px 0 10px 0;
+}
+
+.question-more-infos__main {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+.question-more-infos textarea {
+  resize: none;
+  border: 1px solid black;
+}
+
+.title-label {
+  width: 150px;
+  font-size: 22px;
+  text-align: start;
+
+  padding-left: 10px;
+  margin-bottom: 3px;
+  margin-left: 20px;
+
+  border-bottom: 2px white solid;
+}
+
+.question-title {
+  height: 30px; width: 90%;
+  font-size: 22px;
+  border: 1px solid black;
+} 
+
+.select-category {
+  width: 90%;
+  font-size: 15px;
+}
+
+.select-category__label {
+  text-align: start;
+  font-size: 15px;
+
+  padding-left: 10px;
+  margin-bottom: 2px;
+  margin-left: 20px;
+  width: 120px;
+
+  border-bottom: 1px white solid;
+}
+
+.question-desc {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 2px 5px 2px 5px;
+  width: 45%; height: 100%;
+}
+
+video {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.record-btn {
+  font-size: 1.2rem;
+  padding: 2px 10px 5px 10px;
+  background-color: #4ba773;
+  color: #212121;
+  border-radius: 5px;
+}
+
+.bottom-page {
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: space-around;
+}
+
+.thumbnail {
+  background-color: #fff;
+  border-radius: 50%;
+  width: 100px; height: 100px;
+}
+
+/* UPLOAD BUTTON */
+/* Show only when a blob url is ready to be uploaded */
+
+#upload-question-btn {
+  display: block;
+
+  background-color: #9f3333;
+  font-size: 22px;
+
+  margin: auto;
+  margin-bottom: 10px;
+  padding: 2px 10px;
+
+  border-radius: 3px;
+}

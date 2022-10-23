@@ -1,0 +1,210 @@
+.register__container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: #dcdcdc;
+  padding: 30px;
+  background-image: linear-gradient(90deg, #FFF 50%, #434DE7 50%);
+}
+.formContent {
+  display: flex;
+  flex-direction: column;
+  margin: 10;
+  margin-top: 50%;
+  justify-content: center;
+  align-items: center
+}
+.headerTitle {
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 30px;
+}
+.nameInputs {
+  display: flex;
+  justify-content: space-between;
+}
+.register__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 50%;
+  margin-bottom: 15%;
+}
+.register__form #confirmPassword {
+  width: 502px;
+}
+.register__textBox {
+  width: 528px;
+  min-width: 280px;
+  padding: 10px;
+  border-radius: 15px;
+  font-size: 18px;
+  margin-bottom: 30px;
+  background-color: white;
+  color: black;
+}
+.register__textBox2 {
+  width: 250px;
+  border-radius: 15px;
+  font-size: 18px;
+  background-color: white;
+  color: black;
+}
+
+.register__btn {
+  margin-top: 10px;
+  width: 528px;
+  display: flex;
+  border-radius: 5px;
+  justify-content: center;
+  padding: 10px;
+  min-width: 335px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  border: none;
+  color: white;
+  background-color:  #434DE7;
+}
+.register__textBox::placeholder {
+  color: black;
+}
+#confirmPassword::placeholder {
+  color: black;
+}
+.cPasswordClass {
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.register__google {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4285f4;
+}
+.register div {
+  margin-top: 7px;
+}
+
+
+/* ////////////////////////////////////
+  THIS PART IS FORT THE MOBILE VERSION
+  ////////////////////////////////////*/
+
+@media screen and (max-width: 600px) {
+  .register__container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    min-height: 750px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-image: none;
+  }
+  .register__background {
+  filter: blur(50px);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  min-height: 600px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: #dcdcdc;
+  background-image: linear-gradient(to bottom, #fff, #71D7D7);
+  }
+  .formContent {
+    margin: 0;
+  }
+  .headerTitle {
+    margin-top: 0;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  .nameInputs {
+    display: block;
+  }
+  .register__textBox {
+  display: flex;
+  flex-direction: column;
+  width: 325px;
+  height: 50px;
+  padding: 10px;
+  font-size: 18px;
+  border: 2px solid black;
+  outline: none;
+  margin-bottom: 10px;
+  background-color: white;
+  color: black;
+  }
+  .register__textBox2 {
+    display: flex;
+    flex-direction: column;
+    width: 325px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 18px;
+    background-color: white;
+    color: black;
+  }
+  .register__textBox::placeholder {
+  color: black;
+  }
+  #confirmPassword::placeholder {
+  color: black;
+  }
+  .cPasswordClass {
+  padding: 10px;
+  font-size: 18px;
+  }
+  .register__btn {
+  margin-top: 10px;
+  width: 335px;
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 15px;
+  border: none;
+  color: white;
+  background-color: #434DE7;
+  }
+  .register__google {
+  background-color: #4285f4;
+  }
+  .register div {
+  margin-top: 7px;
+  }
+  .register__form {
+  background-color: white;
+  display: flex;
+  position: absolute;
+  box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.12), 0px 0px 2px 2px rgba(0, 0, 0, 0.24);
+  z-index: 2;
+  height: 90%;
+  width: 90% ;
+  margin-right: 0%;
+  margin-bottom: 0%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
+  .register__form #confirmPassword {
+    max-width: 300px;
+  }
+  .register__form h1 {
+  margin-bottom: 20px;
+  color: black;
+  font-size: 30px;
+  }
+  .accountInput {
+    font-size: 16px;
+  }
+
+}

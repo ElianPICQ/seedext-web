@@ -1,0 +1,12 @@
+.upload-anim {
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  width: 100vw;
+  margin: auto;
+  background-color: #1a202ce0;
+}
+
+.upload-anim span {
+  font-size: 3rem;
+  color: #4ba773;
+}

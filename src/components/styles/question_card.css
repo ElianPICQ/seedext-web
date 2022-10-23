@@ -1,0 +1,68 @@
+/*  If you are looking for those 3 IDs,
+*   they are in "profile.jsx"
+*/
+
+#user-references {
+
+}
+
+#user-references__questions{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 80vw;
+}
+
+#user-references__answers {
+
+}
+
+/* The card */
+
+.question-card {
+  display: flex;
+  width: 100%;
+  margin: 20px 0;
+  border: 3px solid var(--main-btn-color);
+  border-radius: 10px;
+}
+
+/*  infos contains the category, title, description
+*   and a button to the detailed question
+*/
+.question-card__infos {
+  display: flex;
+  flex-direction: column;
+  padding: 7px 13px;
+}
+
+/* title */
+.question-card__infos h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+/* description */
+.question-card__infos p {
+  margin: auto;
+}
+
+/* link to video_detail */
+.question-card__infos span {
+  font-size: 0.8rem;
+
+  color: #7b7b7b;
+  background-color: #00ffff1f;
+
+  padding: 2px 5px;
+  margin-left: auto;
+
+  border-radius: 3px;
+}
+
+/* video */
+.question-card video {
+  width: 35vw;
+  max-width: 500px;
+}

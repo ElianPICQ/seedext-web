@@ -1,0 +1,31 @@
+.response-card {
+  display: flex;
+  justify-content: space-between;
+
+  width: 75vw;
+
+  box-shadow: 0 0 4px 1px #0000007a;
+  margin-bottom: 5px;
+}
+
+.response-video-aside {
+  width: 35vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding: 25px 0 25px 25px;
+}
+
+
+.response-video-aside span {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: 20px;
+
+  font-size: 1.3rem;
+}
+
+.response-card video {
+  width: 35vw;
+}

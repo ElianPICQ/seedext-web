@@ -1,0 +1,74 @@
+.header-back-btn {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin: 15px 25px;
+}
+
+.header-back-btn span {
+  margin-left: 5px;
+}
+
+
+
+#mentoring-cards h3 {
+  align-self: flex-start;
+  margin-left: 30vw;
+  margin-bottom: 25px;
+  font-size: 1.5rem;
+  text-decoration: underline;
+ }
+
+
+/* MENTORING CARDS */
+
+#mentoring-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#user-match-card, #user-card {
+  display: flex;
+  margin-bottom: 80px;
+  background-color: #0000004a;
+}
+
+#match-screen video, #match-screen img {
+  height: 300px;
+}
+
+/* Informations */
+.mentoring-infos {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.montoring-infos span {
+  display: inline-block;
+}
+
+.mentorName {
+  margin-top: 15px;
+  margin-bottom: auto;
+}
+
+.mentorLinkedin {
+  margin-bottom: 50px;
+}
+
+
+@media (max-width: 700px) {
+
+  #user-match-card, #user-card {
+    flex-direction: column;
+  }
+
+  .mentoring-video, .mentoring-picture {
+    display: flex;
+    justify-content: center;
+  }
+}

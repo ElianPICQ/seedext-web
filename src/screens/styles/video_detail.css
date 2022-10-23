@@ -1,0 +1,71 @@
+#video-detail {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Whole container of the question */
+#question-detail {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+{/* Currently, the infos are Category, Title & Description */}
+#question-detail__infos {
+  width: 50vw;
+  padding: 10px 20px;
+}
+
+#question-detail__infos h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: 3px solid #fff;
+  width: fit-content;
+  padding: 0 5px;
+}
+
+#question-detail__title {
+  margin: 15px 0;
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+
+#question-detail__description {
+  padding-left: 20px;
+}
+
+
+#question-detail video {
+  width: 50vw;
+}
+
+
+#optionnal-file {
+  margin-left: 50px;
+  text-decoration: underline;
+  font-size: 1.2rem;
+}
+
+{/* Redirect to the answer/feedback page */}
+#answer-link {
+  width: fit-content;
+  margin: auto;
+}
+
+{/* The actual button, in the link */}
+#respond-to-question-btn {
+  display: block;
+  width: fit-content;
+  background-color: #4ba773;
+  padding: 5px 20px;
+  font-size: 1.4rem;
+  border-radius: 50px;
+}
+
+
+{/* Container for all answers posted for this question */}
+#responses {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 200px 0 70px 0;
+}
